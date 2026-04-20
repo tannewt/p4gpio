@@ -632,7 +632,7 @@
         "uuid": "00fce685-3911-4226-b2b0-c3fe2c89695c"
       }
     ],
-    "used_designators": "#PWR51-54,J3-10",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
@@ -643,6 +643,10 @@
     [
       "b0f69188-22ca-4a52-80c4-e9f18a68cd5a",
       "Minimal P4 V3"
+    ],
+    [
+      "fc5cb0f6-1f42-4538-8559-78e6e95edf0d",
+      "Power OR"
     ]
   ],
   "text_variables": {},
