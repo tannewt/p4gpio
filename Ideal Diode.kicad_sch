@@ -1290,7 +1290,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "15c3bd49-97c1-49d6-a07a-cea09c31e04a")
-		(property "Reference" "R9"
+		(property "Reference" "R7"
 			(at 123.19 92.7099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1312,7 +1312,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" ""
 			(at 120.65 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -1362,12 +1362,6 @@
 					(unit 1)
 				)
 			)
-			(project "Ideal Diode"
-				(path "/60a677a9-44fb-43ad-b21f-999b25bc2992"
-					(reference "R9")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -1382,7 +1376,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "53f2847a-f17c-461b-ae85-33a9e06d6d20")
-		(property "Reference" "Q3"
+		(property "Reference" "Q1"
 			(at 134.62 88.9001 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1466,12 +1460,6 @@
 					(unit 2)
 				)
 			)
-			(project "Ideal Diode"
-				(path "/60a677a9-44fb-43ad-b21f-999b25bc2992"
-					(reference "Q3")
-					(unit 2)
-				)
-			)
 		)
 	)
 	(symbol
@@ -1486,7 +1474,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "838fb079-0e72-41bb-b043-11bbf12fe1c2")
-		(property "Reference" "R10"
+		(property "Reference" "R8"
 			(at 160.02 92.7099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1508,7 +1496,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" ""
 			(at 157.48 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -1558,12 +1546,6 @@
 					(unit 1)
 				)
 			)
-			(project "Ideal Diode"
-				(path "/60a677a9-44fb-43ad-b21f-999b25bc2992"
-					(reference "R10")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -1578,7 +1560,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "86765223-4110-4b47-a9ef-3892ac9e9ff8")
-		(property "Reference" "Q4"
+		(property "Reference" "Q2"
 			(at 148.59 60.96 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1654,12 +1636,6 @@
 					(unit 1)
 				)
 			)
-			(project "Ideal Diode"
-				(path "/60a677a9-44fb-43ad-b21f-999b25bc2992"
-					(reference "Q4")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -1674,7 +1650,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "91a97b96-cd5f-4052-a4d9-48a42ee674e2")
-		(property "Reference" "Q3"
+		(property "Reference" "Q1"
 			(at 106.68 86.3599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1758,12 +1734,6 @@
 					(unit 1)
 				)
 			)
-			(project "Ideal Diode"
-				(path "/60a677a9-44fb-43ad-b21f-999b25bc2992"
-					(reference "Q3")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -1777,7 +1747,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9d074990-ac16-4844-a3b1-4739a85f5ad7")
-		(property "Reference" "C35"
+		(property "Reference" "C34"
 			(at 92.202 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1799,7 +1769,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" ""
 			(at 99.06 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -1849,12 +1819,6 @@
 					(unit 1)
 				)
 			)
-			(project "Ideal Diode"
-				(path "/60a677a9-44fb-43ad-b21f-999b25bc2992"
-					(reference "C35")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -1869,7 +1833,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b5f9a432-f8cf-4160-844b-ad6c99c9cd3c")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR061"
 			(at 120.65 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -1937,12 +1901,6 @@
 					(unit 1)
 				)
 			)
-			(project "Ideal Diode"
-				(path "/60a677a9-44fb-43ad-b21f-999b25bc2992"
-					(reference "#PWR064")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -1957,7 +1915,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f7930811-ef42-45eb-9b51-bd4554923046")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR062"
 			(at 157.48 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -2025,12 +1983,6 @@
 					(unit 1)
 				)
 			)
-			(project "Ideal Diode"
-				(path "/60a677a9-44fb-43ad-b21f-999b25bc2992"
-					(reference "#PWR065")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -2045,7 +1997,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fe68dc8e-f38c-4dc3-b480-2cfd3e02af13")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR060"
 			(at 99.06 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -2113,18 +2065,6 @@
 					(unit 1)
 				)
 			)
-			(project "Ideal Diode"
-				(path "/60a677a9-44fb-43ad-b21f-999b25bc2992"
-					(reference "#PWR063")
-					(unit 1)
-				)
-			)
 		)
 	)
-	(sheet_instances
-		(path "/"
-			(page "1")
-		)
-	)
-	(embedded_fonts no)
 )
