@@ -587,6 +587,10 @@
       {
         "netclass": "GPIO",
         "pattern": "/B*"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "*_VBUS"
       }
     ]
   },
@@ -718,7 +722,7 @@
         "uuid": "00fce685-3911-4226-b2b0-c3fe2c89695c"
       }
     ],
-    "used_designators": "",
+    "used_designators": "U1,R1-2,L1,C1-3,#PWR1,#PWR24-27",
     "variants": []
   },
   "sheets": [
