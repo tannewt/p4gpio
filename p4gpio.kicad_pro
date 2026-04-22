@@ -50,7 +50,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.2
+          "min_clearance": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -60,7 +60,40 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "lib_footprint_mismatch|132850000|74160000|2a4df7be-df83-437b-8eda-7a0b3a856e7e|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|132850000|94480000|9d8cd258-f7e8-40a4-990a-c8c9f39a6545|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|155710000|74160000|2af3f04e-f7ae-4d33-960a-fe73bf4b9b8e|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|155710000|94480000|1e790d73-8a83-43ff-858f-6c5db9459fd7|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|178570000|74160000|f566a042-ae01-40e0-9f89-c57db257f8f6|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|178570000|94480000|c00ae423-2c88-43e1-9bf1-14a96202e00f|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|196350000|74160000|86fd41e2-e295-4c5a-ba79-3e053df865c8|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|196350000|94480000|4e6a1981-9122-423b-9a8d-4d016f32f6b6|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -105,8 +138,8 @@
         "pth_inside_courtyard": "error",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
-        "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_over_copper": "ignore",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
@@ -142,9 +175,9 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.15,
+        "min_through_hole_diameter": 0.2,
         "min_track_width": 0.2,
-        "min_via_annular_width": 0.1,
+        "min_via_annular_width": 0.05,
         "min_via_diameter": 0.35,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
@@ -196,10 +229,7 @@
       "track_widths": [
         0.0,
         0.2,
-        0.254,
-        0.508,
-        0.635,
-        0.762
+        0.6
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -231,14 +261,6 @@
         {
           "diameter": 0.0,
           "drill": 0.0
-        },
-        {
-          "diameter": 0.35,
-          "drill": 0.2
-        },
-        {
-          "diameter": 0.508,
-          "drill": 0.254
         }
       ],
       "zones_allow_external_fillets": false
@@ -518,37 +540,15 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "tuning_profile": "",
-        "via_diameter": 0.35,
-        "via_drill": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
         "wire_width": 6
-      },
-      {
-        "clearance": 0.15,
-        "name": "GPIO",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
-        "tuning_profile": "",
-        "via_diameter": 0.35,
-        "via_drill": 0.2
-      },
-      {
-        "clearance": 0.15,
-        "name": "Power",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.381,
-        "tuning_profile": "",
-        "via_diameter": 0.508,
-        "via_drill": 0.254
       },
       {
         "clearance": 0.131,
         "name": "USB",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "tuning_profile": ""
@@ -567,30 +567,6 @@
       {
         "netclass": "USB",
         "pattern": "*_D+"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "*VDD*"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "+3.3V"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "GND"
-      },
-      {
-        "netclass": "GPIO",
-        "pattern": "/T*"
-      },
-      {
-        "netclass": "GPIO",
-        "pattern": "/B*"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "*_VBUS"
       }
     ]
   },
@@ -722,7 +698,7 @@
         "uuid": "00fce685-3911-4226-b2b0-c3fe2c89695c"
       }
     ],
-    "used_designators": "R17-18,#PWR65,#PWR79-84,J11,C38-39,D9",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [

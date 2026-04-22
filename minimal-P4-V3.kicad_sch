@@ -9763,7 +9763,7 @@
 				)
 			)
 		)
-		(property "Value" "TODO"
+		(property "Value" "12pF"
 			(at 105.4163 35.56 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10003,7 +10003,7 @@
 				)
 			)
 		)
-		(property "Value" "TODO"
+		(property "Value" "12pF"
 			(at 95.2563 35.56 90)
 			(show_name no)
 			(do_not_autoplace no)

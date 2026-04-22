@@ -1,3 +1,6 @@
 [submodule "kicad-libraries"]
 	path = kicad-libraries
 	url = git@github.com:adafruit/kicad-libraries.git
+[submodule "chickadee-libs"]
+	path = chickadee-libs
+	url = git@github.com:chickadee-tech/kicad-libs.git
