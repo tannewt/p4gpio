@@ -8173,7 +8173,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5.1K(1%)"
+		(property "Value" "2.2K"
 			(at 71.12 168.9099 0)
 			(show_name no)
 			(do_not_autoplace no)
