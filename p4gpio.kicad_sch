@@ -7133,7 +7133,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10K(1%)"
 			(at 167.386 134.112 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7530,7 +7530,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10K(1%)"
 			(at 161.798 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8173,7 +8173,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2K"
+		(property "Value" "5.1K(1%)"
 			(at 71.12 168.9099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9733,7 +9733,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10K(1%)"
 			(at 105.41 167.64 90)
 			(show_name no)
 			(do_not_autoplace no)

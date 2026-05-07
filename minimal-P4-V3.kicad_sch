@@ -8382,7 +8382,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1uF/16V(10%)"
 			(at 215.9 105.4162 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8865,7 +8865,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10K(1%)"
 			(at 52.578 62.738 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10084,7 +10084,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1uF/16V(10%)"
 			(at 224.79 105.4162 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11700,7 +11700,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1uF/16V(10%)"
 			(at 90.17 179.0762 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12335,7 +12335,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1uF/16V(10%)"
 			(at 46.99 152.4062 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12494,7 +12494,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10K(1%)"
 			(at 36.83 162.56 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12809,7 +12809,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1uF/16V(10%)"
 			(at 219.71 135.8962 0)
 			(show_name no)
 			(do_not_autoplace no)
