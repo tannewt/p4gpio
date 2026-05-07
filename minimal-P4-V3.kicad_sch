@@ -5066,7 +5066,7 @@
 		)
 		(uuid "f7bb7210-3db4-4951-b3b9-de854e663226")
 	)
-	(label "VDDO_FLASH"
+	(label "VDD_FLASH"
 		(at 200.66 101.6 0)
 		(effects
 			(font
@@ -12870,6 +12870,11 @@
 	)
 	(group "Minimal P4"
 		(uuid "b39066dd-75fd-4f48-8578-955205eb178f")
+		(members "fa4e65ae-e387-4699-8943-9df01c62cf29")
+	)
+	(group "Minimal P4 V3"
+		(uuid "fa4e65ae-e387-4699-8943-9df01c62cf29")
+		(lib_id "Espressif:Minimal P4 V3")
 		(members "008b715d-e8da-4df3-8723-02ccdaa80df5" "01d0c653-ddd9-4bb7-a9d1-9bd4facf6944"
 			"01d56d51-753a-4c1f-8696-b241f55c7d35" "02945611-2a84-4ce7-a537-efee910da38f"
 			"03e2d65a-0da9-4d4a-8477-1316cec9ad94" "03f5a7bd-9873-4071-b50b-e688f084ac5c"
